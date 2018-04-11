@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^home/([A-Za-z0-9]+)/?$  home.php?name=$1 [NC,L]
